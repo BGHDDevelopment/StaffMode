@@ -1,0 +1,168 @@
+#=======================================================
+#Plugin Version: 4.17
+#Newest Update: Removed BStats
+#=======================================================
+#Plugin Made By: BGHDNetwork/Noodles
+#=======================================================
+#Plugin Page: https://www.spigotmc.org/resources/40929
+#=======================================================
+#Please contact me on the discord if you find anything wrong or need help!
+#https://discord.gg/QbbXPNG
+#=======================================================
+#Permssion: staffmode.update
+Update:
+  Enabled: true
+#Enables if there is a message on-join when the plugin is outdated. 
+#=======================================================  
+Messages:
+  Prefix: '&b&lSTAFFMODE'
+  MainMenu: '&7Returned To Main Menu!'
+#=======================================================  
+#Permssion: staffmode.gamemode
+  GamemodeMenu: '&7Abriendo Menu!'
+  Creative: '&7Modo de juego cambiado a Creativo!' 
+  Survival: '&7Modo de juego cambiado a Survival!' 
+  Spectator: '&7Modo Espectador!'
+  Adventure: '&7Modo de juego cambiado a Aventura!'
+#=======================================================  
+#Permssion: staffmode.time
+  TimeMenu: '&7Abriendo Menu!'  
+  TimeSixAM: '&7Tiempo cambiado a &e6AM&7!'
+  TimeSevenAM: '&7Tiempo cambiado a &e7AM&7!'
+  TimeEightAM: '&7Tiempo cambiado a &e8AM&7!'
+  TimeNineAM: '&7Tiempo cambiado a &e9AM&7!'
+  TimeTenAM: '&7Tiempo cambiado a &e10AM&7!'
+  TimeElevenAM: '&7Tiempo cambiado a &e11AM&7!'
+  TimeTwelvePM: '&7Tiempo cambiado a &e12PM&7!'
+  TimeOnePM: '&7Tiempo cambiado a &e1PM&7!'
+  TimeTwoPM: '&7Tiempo cambiado a &e2PM&7!'
+  TimeThreePM: '&7Tiempo cambiado a &e3PM&7!'
+  TimeFourPM: '&7Tiempo cambiado a &e4PM&7!'
+  TimeFivePM: '&7Tiempo cambiado a &e5PM&7!'
+  TimeSixPM: '&7Tiempo cambiado a &e6PM&7!'
+  TimeSevenPM: '&7Tiempo cambiado a &e7PM&7!'
+  TimeEightPM: '&7Tiempo cambiado a &e8PM&7!'
+  TimeNinePM: '&7Tiempo cambiado a &e9PM&7!'
+  TimeTenPM: '&7Tiempo cambiado a &e10PM&7!'
+  TimeElevenPM: '&7Tiempo cambiado a &e11PM&7!'
+  TimeTwelveAM: '&7Tiempo cambiado a &e12AM&7!'
+  TimeOneAM: '&7Tiempo cambiado a &e1AM&7!'
+  TimeTwoAM: '&7Tiempo cambiado a &e2AM&7!'
+  TimeThreeAM: '&7Tiempo cambiado a &e3AM&7!'
+  TimeFourAM: '&7Tiempo cambiado a &e4AM&7!'
+  TimeFiveAM: '&7Tiempo cambiado a &e5AM&7!'
+#=======================================================
+#Permssion: staffmode.tools
+  ToolsMenu: '&7Abriendo Menu!'     
+  FlyON: '&7Vuelo &aON/Activado&7!'
+  FlyOFF: '&7Vuelo &cOFF/Desactivado&7!'
+  ClearInv: '&7Inventario limpiado!'
+  Heal: '&7Has sido Resanado!'
+  Feed: '&7Yomi yomi yomi... Delishous...!'
+  VanishON: '&7Invisibilidad con Vuelo &a&lON/Acativada!'
+  VanishOFF: '&7Invisibilidad con Vuelo &c&lOFF/Desactivada!'
+  ClearChat: '&7Chat removido!' 
+#=======================================================
+#Permssion: staffmode.adminitems 
+  AdminToolsMenu: '&7Abriendo Menu de Staff!'
+  AdminSword: '&7Has recivido la &c&lADMIN &7sword!'
+  AdminBow: '&7Has recivido la &c&lADMIN &7bow!'
+  AdminStick: '&7Has recivido el &c&lADMIN &7stick!'
+#=======================================================
+#Permssion: staffmode.servermanager
+  ServerManagerMenu: '&7Abriendo Menu del Servidor!'
+  WeatherRain: '&7Lloviendo!'
+  WeatherClear: '&7Soleado!'
+  WhitelistON: '&7Whitelist actualizada: &aON/Activada&7!'
+  WhitelistOFF: '&7Whitelist actualizada: &cOFF/Desactivada&7!'  
+#=======================================================  
+#Permssion: staffmode.effects
+  EffectsMenu: '&7Abriendo Menu!'   
+  EffectsClear: '&7Efectos removidos!'
+  SpeedMenu: '&7Abriendo Menu!'
+  JumpMenu: '&7Abriendo Menu!'
+  StrengthMenu: '&7Abriendo Menu!'
+  Speed1: '&7Velocidad-1 &aActivada!'
+  Speed2: '&7Velocidad-2 &aActivada!'
+  Speed3: '&7Velocidad-3 &aActivada!'
+  Speed4: '&7Velocidad-4 &aActivada!'
+  Speed5: '&7Velocidad-5 &aActivada!'
+  Speed6: '&7Velocidad-6 &aActivada!'
+  Speed7: '&7Velocidad-7 &aActivada!'
+  Speed8: '&7Velocidad-8 &aActivada!'
+  Jump1: '&7Salto1 &aActivada!'
+  Jump2: '&7Salto2 &aActivada!'
+  Jump3: '&7Salto3 &aActivada!'
+  Jump4: '&7Salto4 &aActivada!'
+  Jump5: '&7Salto5 &aActivada!'
+  Jump6: '&7Salto6 &aActivada!'
+  Jump7: '&7Salto7 &aActivada!'
+  Jump8: '&7Salto8 &aActivada!'
+  Strength1: '&7Fuerza-1 &aActivada!'
+  Strength2: '&7Fuerza-2 &aActivada!'
+  Strength3: '&7Fuerza-3 &aActivada!'
+  Strength4: '&7Fuerza-4 &aActivada!'
+  Strength5: '&7Fuerza-5 &aActivada!'
+  Strength6: '&7Fuerza-6 &aActivada!'
+  Strength7: '&7Fuerza-7 &aActivada!'
+  Strength8: '&7Fuerza-8 &aActivada!'
+  Invisibility: '&7Invisibilidad &aActivada!'
+  WatherBreathing: '&7 &aRespiracion bajo el mar Activada!'
+  NightVision: '&7Vision nocturna &aActivada!'
+  Slowness: '&7Lentitud &aActivada!'
+#=======================================================  
+#Permssion: staffmode.mobs 
+  MobMenu: '&7Abriendo Menu!'
+  ExtraMobMenu: '&7Abriendo Menu Extra!'
+  SpawnCreeper: '&7Invocar Creeper!'  
+  SpawnSkeleton: '&7Invocar Skeleton!'
+  SpawnSpider: '&7Invocar Spider!'
+  SpawnZombie: '&7Invocar Zombie!'
+  SpawnSlime: '&7Invocar Slime!'
+  SpawnGhast: '&7Invocar Ghast!'
+  SpawnZombiePig: '&7Invocar Zombie Pigman!'
+  SpawnEnderman: '&7Invocar Enderman!'
+  SpawnCaveSpider: '&7Invocar CaveSpider!'
+  SpawnSilverfish: '&7Invocar Silverfish!'
+  SpawnBlaze: '&7Invocar Blaze!'
+  SpawnMagmaCube: '&7Invocar Magma Cube!'
+  SpawnBat: '&7Invocar Murcielago!'
+  SpawnWitch: '&7Invocar Bruja!'
+  SpawnPig: '&7Invocar Cerdo!'
+  SpawnSheep: '&7Invocar Oveja!'
+  SpawnCow: '&7Invocar Vaca!'
+  SpawnChicken: '&7Invocar Pollo!'
+  SpawnSquid: '&7Invocar Calamardo!'
+  SpawnWolf: '&7Invocar Lobo!'
+  SpawnMushroom: '&7Invocar Vacongo!'
+  SpawnOcelot: '&7Invocar Ocelote!'
+  SpawnHorse: '&7Invocar Caballo!'
+  SpawnVillager: '&7Invocar Villager!'
+  SpawnRabbit: '&7Invocar Conejo!'
+  SpawnIronGolem: '&7Invocar IronGolem!'
+  SpawnSnowGolem: '&7Invocar Mono de Nieve!'
+  SpawnGuardian: '&7Invocar Guardian!'
+  SpawnGiant: '&cInvocar Gigante!'
+  SpawnWither: '&cInvocar Wither!'
+  SpawnEnderDragon: '&cInvocar EnderDragon!'
+#======================================================= 
+#Permssion: staffmode.difficulty
+  DifficultyMenu: '&7Abriendo menu!'
+  DifficultyPeace: '&7Dificultad cambiada a Pacifico!'
+  DifficultyEasy: '&7Dificultad cambiada a Facil!'
+  DifficultyNormal: '&7Dificultad cambiada a Normal!'
+  DifficultyHard: '&7Dificultad cambiada a Dificil!'
+#=======================================================
+#Permssion: staffmode.trolls
+  TrollMenu: '&7Abriendo Menu TROLL!'
+  CowTroll: '&7Apareciendo Vacas?!'
+  CowTrollPlayer: '&cMas Vacas troll!'
+  LightningTroll: '&7Truenos!'
+  LightningTrollPlayer: '&cMas Truenos!' 
+  BlindnessTroll: '&7Trolleando jugadores con blindness!'
+  BlindnessTrollPlayer: '&cMas BlindnessTroll!' 
+  SlownessTroll: '&7Lentitud a todos los jugadores!'
+  SlownessTrollPlayer: '&cLentitud para ti!'
+  NauseaTroll: '&7Nuseas!'
+  NauseaTrollPlayer: '&cNauseas troll...!'
+#=======================================================    
