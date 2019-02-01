@@ -492,7 +492,7 @@ public class Event implements Listener
             e.getWhoClicked().closeInventory();
         }
         if (e.getCurrentItem().equals((Object)Items.TWOAM(p))) {
-            p.getWorld().setTime(18000L);
+            p.getWorld().setTime(20000L);
             p.sendMessage(String.valueOf(String.valueOf(this.prefix)) + this.DoubleArrow + String.valueOf(this.TimeTwoAM));
             e.getWhoClicked().closeInventory();
         }

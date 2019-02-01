@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts/StaffModeV6_1</output-path>
     <root id="archive" name="StaffModeV6.1.jar">
       <element id="module-output" name="StaffMode3.0+" />
-      <element id="extracted-dir" path="C:/SharedProjects/Spigot1.8.jar" path-in-jar="/" />
       <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
       <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
     </root>
